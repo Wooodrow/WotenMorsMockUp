@@ -1,0 +1,47 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#Wrapper {
+	background-color: #f7f7f7;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #999999;
+	border-left-color: #999999;
+}
+#Wrapper #Logo {
+	height: 84px;
+	background-color: #ffffff;
+}
+a img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#Wrapper #Navigation {
+	height: 35px;
+}
+#Wrapper #headerImg {
+	height: 250px;
+	background-image: url(../Images/Morsportahomepagecontent.jpg);
+	background-repeat: no-repeat;
+}
+#Wrapper #bodyArea #left {
+	float: left;
+	height: 300px;
+	width: 550px;
+	background-color: #DDD;
+}
+#Wrapper #bodyArea #right {
+	float: right;
+	height: 300px;
+	width: 250px;
+	background-color: #DDD;
+}
